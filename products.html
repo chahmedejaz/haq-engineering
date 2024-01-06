@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>HAQ Engineering - Home</title>
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./assets/css/shared.css">
+	<link rel="stylesheet" href="./assets/css/products.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./assets/images/logo.PNG" alt="Bootstrap" width="110" height="60">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./index.html#whoWeAre?">Who We Are?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Our Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html#ourClients">Our Clients</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html#contactUs">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+
+  <!-- Website Content -->
+  <div class="container">
+		<div class="row text-center">
+			<h2 class="logo-color">Our Products</h2>
+		</div>
+		<!-- Boiler Parts -->
+		<section id="boilerParts">
+			<!-- <div class="row text-center">
+				<h4 class="logo-color mb-3">Boiler Parts</h4>
+			</div> -->
+			<div class="row images">
+				<img src="./assets/images/products/1.png" alt="1">
+				<img src="./assets/images/products/2.png" alt="2">
+			</div>
+		</section>
+		<!-- End Boiler Parts -->
+
+		<!-- Fire Safety -->
+		<section id="fireSafety">
+			<!-- <div class="row text-center">
+				<h4 class="logo-color mb-3">Fire Safety</h4>
+			</div> -->
+			<div class="row images">
+				<img src="./assets/images/products/3.jpg" alt="3">
+				<img src="./assets/images/products/4.png" alt="4">
+			</div>
+		</section>
+		<!-- End Fire Safety -->
+
+		<!-- High Pressure Pumps -->
+		<section id="highPressurePumps">
+			<!-- <div class="row text-center">
+				<h4 class="logo-color mb-3">High Pressure Pumps</h4>
+			</div> -->
+			<div class="row images">
+				<img src="./assets/images/products/5.png" alt="5">
+				<img src="./assets/images/products/6.jpg" alt="6">
+				<img src="./assets/images/products/7.png" alt="7">
+			</div>
+		</section>
+		<!-- End High Pressure Pumps -->
+		
+    <!-- Footer -->
+    <footer class="text-center">
+      <p>&copy; Haq Engineering <span id="currentYear"></span></p>
+    </footer>
+    <!-- End Footer -->
+
+  </div>
+  <!-- End Website Content -->
+
+</div>
+<!-- End Website Content -->
+
+  <script src="./assets/javascript/bootstrap.bundle.min.js"></script>
+  <script>
+    const currentYear = new Date().getFullYear();
+    document.getElementById('currentYear').textContent = ` - ${currentYear}`;
+  </script>
+</body>
+</html>
